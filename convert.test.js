@@ -1,6 +1,6 @@
 const convertNum = require("./convert");
 const convert = require("./convert");
-const toRoman = require("./convert");
+//const toRoman = require("./convert");
 
 test("I = 1", () => {
   expect(convertNum("II")).toBe(2);
@@ -13,6 +13,3 @@ test("I = 1", () => {
   expect(convertNum("MMXXI")).toBe(2021);
 });
 
-test('1 = "I', () => {
-  expect(toRoman(1)).toBe("I");
-});
